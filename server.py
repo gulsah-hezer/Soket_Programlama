@@ -1,3 +1,11 @@
+
+#Burada aynı anda en fazla 5 bağlantıya izin verdiğimizi söyledik. 
+#Sıradaki işlemimiz bağlantıları kabul etmek ve bir client bağlandığı zaman ona send() fonksiyonu ile küçük bir mesaj göndermek olabilir.
+#Bunun için gerekli kodlar ile beraber server tarafının son hali şu şekildedir.
+
+
+
+
 import socket
 
 host = "localhost"
