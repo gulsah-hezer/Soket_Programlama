@@ -1,3 +1,9 @@
+
+#Client tarafını yazarken ek olarak recv() fonksiyonu ile mesajın tampon boyutunu (buffer size) ayarlamamız gerekiyor.
+#Böylece bir sn de alınacak maksimum dosya boyutunu byte cinsinden ayarlamış oluyoruz. 
+#Bu boyutu ayarlarken değerimizin 2 nin üssü şeklinde olmasına dikkat ediniz.
+
+
 import socket                
 
 # Socket oluşturulması
